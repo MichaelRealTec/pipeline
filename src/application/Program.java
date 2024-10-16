@@ -12,12 +12,6 @@ public class Program {
 		
 		List<Integer> list = Arrays.asList(3,4,5,10,7);
 		
-		Stream<Integer> st1 = list.stream().map(x -> x * 10); // transforma o elemento da lista em outro elemento conforme a expressão Lambda
-		System.out.println(Arrays.toString(st1.toArray()));
-		
-		
-		
-		/*
 		Stream<Integer> st1 = list.stream().map(x -> x * 10);
 		System.out.println(Arrays.toString(st1.toArray()));
 		
@@ -30,7 +24,6 @@ public class Program {
 				.collect(Collectors.toList()); // filtro todos os elementos pares
 		
 		System.out.println(Arrays.toString(newList.toArray()));
-		*/
 
 	}
 
